@@ -249,7 +249,7 @@ GET /produtos
     "descricao": "Descrição do produto",
     "preco": 99.90,
     "imgUrl": "https://exemplo.com/imagem.jpg",
-    "categoria": "ELETRONICOS",
+    "categoria": "TESTE1",
     "dataCriacao": "2024-01-15T10:30:00",
     "dataUltimaModificacao": "2024-01-15T10:30:00"
   }
@@ -276,7 +276,7 @@ GET /produtos/search
 
 **Exemplo de Request:**
 ```http
-GET /produtos/search?nome=Notebook&categoria=ELETRONICOS
+GET /produtos/search?nome=Notebook&categoria=TESTE1
 ```
 
 **Resposta de Sucesso (200 OK):**
@@ -288,7 +288,7 @@ GET /produtos/search?nome=Notebook&categoria=ELETRONICOS
     "descricao": "Notebook de alta performance",
     "preco": 3500.00,
     "imgUrl": "https://exemplo.com/notebook.jpg",
-    "categoria": "ELETRONICOS",
+    "categoria": "TESTE1",
     "dataCriacao": "2024-01-15T10:30:00",
     "dataUltimaModificacao": "2024-01-15T10:30:00"
   }
@@ -321,7 +321,7 @@ GET /produtos/{id}
   "descricao": "Descrição do produto",
   "preco": 99.90,
   "imgUrl": "https://exemplo.com/imagem.jpg",
-  "categoria": "ELETRONICOS",
+  "categoria": "TESTE2",
   "dataCriacao": "2024-01-15T10:30:00",
   "dataUltimaModificacao": "2024-01-15T10:30:00"
 }
@@ -354,7 +354,7 @@ POST /produtos
   "descricao": "Smartphone com 128GB de armazenamento",
   "preco": 1999.90,
   "imgUrl": "https://exemplo.com/smartphone.jpg",
-  "categoria": "ELETRONICOS"
+  "categoria": "TESTE1"
 }
 ```
 
@@ -366,7 +366,7 @@ POST /produtos
   "descricao": "Smartphone com 128GB de armazenamento",
   "preco": 1999.90,
   "imgUrl": "https://exemplo.com/smartphone.jpg",
-  "categoria": "ELETRONICOS",
+  "categoria": "TESTE1",
   "dataCriacao": "2024-01-15T10:30:00",
   "dataUltimaModificacao": "2024-01-15T10:30:00"
 }
@@ -409,7 +409,7 @@ PATCH /produtos
   "descricao": "Smartphone com 128GB de armazenamento",
   "preco": 1799.90,
   "imgUrl": "https://exemplo.com/smartphone.jpg",
-  "categoria": "ELETRONICOS",
+  "categoria": "TESTE1",
   "dataCriacao": "2024-01-15T10:30:00",
   "dataUltimaModificacao": "2024-01-15T14:45:00"
 }

@@ -108,7 +108,7 @@ O projeto segue os princípios REST e implementa:
 
 Antes de começar, certifique-se de ter instalado em sua máquina:
 
-- **Java 17** ou superior
+- **Java 17**
 - **Git** para clonar o repositório
 
 ## Passo a Passo
